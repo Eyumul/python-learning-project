@@ -10,7 +10,7 @@ while True:
 
     while j <= 2:
         print("Choose 'X' or 'O' to play: ")
-        sign = input()
+        sign = input().upper()
         if sign == "X":
             pcsign = "O"
             break
@@ -18,7 +18,7 @@ while True:
             pcsign = "X"
             break
         else:
-            print("Please enter valid INPUt: ")
+            print("Please enter valid INPUT: ")
 
     print("     |     |     ")
     print("  " + pos[0] + "  |  " + pos[1] + "  |  " + pos[2] + "  ")
@@ -37,8 +37,8 @@ while True:
 
     while j <= 5:
         print("Enter the number")
-        value = int(input())
-        if value == 1:
+        value = input()
+        if value == "1":
             if pos[0] == " ":
                 pos[0] = sign
                 pcvalue.append(0)
@@ -51,7 +51,7 @@ while True:
             else:
                 print("You cheated")
                 break
-        elif value == 2:
+        elif value == "2":
             if pos[1] == " ":
                 pos[1] = sign
                 pcvalue.append(1)
@@ -64,7 +64,7 @@ while True:
             else:
                 print("You cheated")
                 break
-        elif value == 3:
+        elif value == "3":
             if pos[2] == " ":
                 pos[2] = sign
                 pcvalue.append(2)
@@ -77,7 +77,7 @@ while True:
             else:
                 print("You cheated")
                 break
-        elif value == 4:
+        elif value == "4":
             if pos[3] == " ":
                 pos[3] = sign
                 pcvalue.append(3)
@@ -90,7 +90,7 @@ while True:
             else:
                 print("You cheated")
                 break
-        elif value == 5:
+        elif value == "5":
             if pos[4] == " ":
                 pos[4] = sign
                 pcvalue.append(4)
@@ -103,7 +103,7 @@ while True:
             else:
                 print("You cheated")
                 break
-        elif value == 6:
+        elif value == "6":
             if pos[5] == " ":
                 pos[5] = sign
                 pcvalue.append(5)
@@ -116,7 +116,7 @@ while True:
             else:
                 print("You cheated")
                 break
-        elif value == 7:
+        elif value == "7":
             if pos[6] == " ":
                 pos[6] = sign
                 pcvalue.append(6)
@@ -129,7 +129,7 @@ while True:
             else:
                 print("You cheated")
                 break
-        elif value == 8:
+        elif value == "8":
             if pos[7] == " ":
                 pos[7] = sign
                 pcvalue.append(7)
@@ -142,7 +142,7 @@ while True:
             else:
                 print("You cheated")
                 break
-        elif value == 9:
+        elif value == "9":
             if pos[8] == " ":
                 pos[8] = sign
                 pcvalue.append(8)
