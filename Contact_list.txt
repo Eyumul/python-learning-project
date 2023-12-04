@@ -1,0 +1,9 @@
+Firstname: Eyuel
+Lasstname: Mulugeta
+Phonenumber: 09660281772
+Firstname: chala
+Lastname: lemesa
+Phonenumber: 091010101010
+Firstname: fikersilase
+Lastname: wondmeneh
+Phonenumber: 0915152445155
